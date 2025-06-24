@@ -17,5 +17,16 @@ public class BangunDatar {
     double tinggi;
     double jarijari;
     double hasil;
+    
+    // Method untuk menghitung luas segitiga
+    public void hitungLuasSegitiga() {
+        hasil = 0.5 * alas * tinggi;
+        System.out.println("Luas Segitiga = " + hasil);
+    }
 
+    // Method untuk menghitung luas lingkaran
+    public void hitungLuasLingkaran() {
+        hasil = 3.14 * jarijari * jarijari;
+        System.out.println("Luas Lingkaran = " + hasil);
+    }
 }
