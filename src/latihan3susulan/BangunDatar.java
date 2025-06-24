@@ -13,6 +13,9 @@ public class BangunDatar {
     // Nama  : Al-Fadilah Nur Sahdan Al-Biya
 // NPM   : 2310010465
 // Kelas : I4C
-
+     double alas;
+    double tinggi;
+    double jarijari;
+    double hasil;
 
 }
