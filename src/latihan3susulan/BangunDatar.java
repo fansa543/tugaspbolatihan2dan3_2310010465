@@ -29,4 +29,9 @@ public class BangunDatar {
         hasil = 3.14 * jarijari * jarijari;
         System.out.println("Luas Lingkaran = " + hasil);
     }
+
+    // Accessor: Mengembalikan nilai hasil
+    public double getHasil() {
+        return hasil;
+    }
 }
